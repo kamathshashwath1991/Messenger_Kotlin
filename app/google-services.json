@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "71580887201",
+    "firebase_url": "https://messenger-samsung.firebaseio.com",
+    "project_id": "messenger-samsung",
+    "storage_bucket": "messenger-samsung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71580887201:android:bf1c68761f21ceb9",
+        "android_client_info": {
+          "package_name": "theinterview.marion.com.messenger_samsung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71580887201-maa0o9rjd4c4jema699mjvqocvok8drv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIm1Qh4eVyy2L-3WriaI_5giR2zYq8-P0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
