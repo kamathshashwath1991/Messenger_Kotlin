@@ -1,12 +1,13 @@
 package theinterview.marion.com.messenger_samsung
 
-import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
+import theinterview.marion.com.messenger_samsung.R.id.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,7 +24,9 @@ class MainActivity : AppCompatActivity() {
             Log.d("MainActivity","Email is :" + email)
             Log.d("MainActivity", "Password: $password")
 
-            /*Firebase authentication*/
+            //Firebase
+            FirebaseAuth.getInstance().createUserWithEmailAndPassword(email,password)
+
 
         }
 
